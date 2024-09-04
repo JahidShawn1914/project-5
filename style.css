@@ -1,0 +1,82 @@
+/* fonts */
+@font-face {
+    font-family: playfairdisplay-regular;
+    src: url(./fonts/playfair_display/playfairdisplay-regular.ttf);
+}
+@font-face {
+    font-family: playfairdisplay-italic;
+    src: url(./fonts/playfair_display/playfairdisplay-italic.ttf);
+}
+@font-face {
+    font-family: playfairdisplay-bold;
+    src: url(./fonts/playfair_display/playfairdisplay-bold.ttf);
+}
+@font-face {
+    font-family: playfairdisplay-black;
+    src: url(./fonts/playfair_display/playfairdisplay-black.ttf);
+}
+@font-face {
+    font-family: ubuntu-light;
+    src: url(./fonts/ubuntu/ubuntu-light.ttf);
+}
+
+
+/* common css start */
+body{
+    margin: 0;
+    font-family: playfairdisplay-regular;
+    color: #626262;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+/* common css end */
+
+
+/* header start */
+header{
+    padding: 30px 0;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+.logo{
+    margin-top: 10px;
+    float: left;
+    width: 8%;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    float: right;
+    width: 65%;
+}
+.menu ul{
+    float: right;
+    overflow: hidden;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    display: inline-block;
+    margin: 0px 100px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid #626262;
+    transition: 0.1s ease-in-out;
+    
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/* header end */
