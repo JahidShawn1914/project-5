@@ -89,9 +89,10 @@ header{
 
 /* getaway start */
 .getaway{
-    padding: 70px 0;
+    padding: 100px 0 30px;
 }
 .container-2{
+    overflow: hidden;
     margin: 0 auto;
     width: 80%;
 }
@@ -121,6 +122,23 @@ header{
 
 /* blog start */
 
+.blog{
+    padding-bottom: 100px;
+}
+.sb-item{
+    margin-top: 70px;
+    width: 45%;
+    float: left;
+}
+.sb-item:nth-child(even){
+    margin-left: 6%;
+}
+.sb-img{
+    margin-bottom: 20px;
+}
+.sb-img img{
+    width: 100%;
+}
 /* blog end */
 
 /* newsletter start */
@@ -168,3 +186,60 @@ header{
     outline: 0;
 }
 /* newsletter end */
+/* button start */
+.load{
+    text-align: center;
+}
+.load button{
+    margin: 100px;
+    width: 165px;
+    height: 60px;
+    font-family: playfairdisplay-regular;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid #626262;
+    cursor: pointer;
+}
+.load button:hover{
+    background-color: #626262;
+    transition: 0.33s linear;
+}
+
+/* button end */
+
+/* footer start */
+footer{
+    padding: 40px;
+    background-color: #F0F0F0;
+}
+.pages{
+    float: left;
+}
+.pages ul{
+    list-style: none;
+}
+.pages ul li{
+    float: left;
+}
+.pages ul li a{
+    margin-right: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.social{
+    float: right;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li{
+    margin-right: 20px;
+    float: left;
+    color: #000;
+    font-weight: 400;
+}
+.social ul li:last-child{
+    margin-right: 0px;
+}
+/* footer end */
